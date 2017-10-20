@@ -21,6 +21,8 @@ Boot.prototype = {
         this.game.load.image('ground', 'gameAssets/platform.png');
         this.game.load.image('star', 'gameAssets/star.png');
         this.game.load.spritesheet('dude', 'gameAssets/dude.png', 32, 48);
+        this.game.load.spritesheet('h1', 'assets/h1.png', 32, 32);
+    	this.game.load.spritesheet('h2', 'assets/h2.png', 32, 32);
 
     },
 
